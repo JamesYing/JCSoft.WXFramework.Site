@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "git", "git", "{EAE946BD-8E5
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{F24E7002-4D07-4A45-B487-F804C4894059}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{6E97D6D3-C056-4332-B634-ABEB966E86AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,10 @@ Global
 		{DEF8332E-5E31-4705-ACA2-E04A84B4966B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEF8332E-5E31-4705-ACA2-E04A84B4966B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEF8332E-5E31-4705-ACA2-E04A84B4966B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F24E7002-4D07-4A45-B487-F804C4894059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F24E7002-4D07-4A45-B487-F804C4894059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F24E7002-4D07-4A45-B487-F804C4894059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F24E7002-4D07-4A45-B487-F804C4894059}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  site:
+    image: site
+    build:
+      context: ./Site
+      dockerfile: Dockerfile

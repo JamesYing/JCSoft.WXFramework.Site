@@ -1,0 +1,11 @@
+services:
+  site:
+    build:
+      context: E:\project\aspnet\JCSoft.WXCore.Site\Site
+      dockerfile: Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: site
+    ports:
+    - 80/tcp
+version: '3.0'
