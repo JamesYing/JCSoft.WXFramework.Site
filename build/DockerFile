@@ -1,4 +1,4 @@
-FROM microsoft/aspnetcore:2.0
+FROM microsoft/aspnetcore
 ARG source
 
 # Install Node (used for server pre-rendering)
