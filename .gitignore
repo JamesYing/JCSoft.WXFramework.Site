@@ -6,3 +6,4 @@
 /Site/node_modules
 /Site/obj
 /.vs
+/build/wwwroot/css
